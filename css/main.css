@@ -3,4 +3,83 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* header */
+
+.header {
+  padding-top: 46px;
+  background-color: #f1f1f1;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 76px;
+}
+
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+}
+
+.logo::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
+}
+
+.nav-list {
+  display: flex;
+  column-gap: 50px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.nav-link {
+  color: #000;
+}
+
+.nav-link.active {
+  color: #606060;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 30px;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-top: 124px;
+}
+
+.header-content p {
+  line-height: 2;
+}
+
+.header-heading {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 600;
 }
