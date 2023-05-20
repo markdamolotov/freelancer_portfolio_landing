@@ -13,6 +13,11 @@ body {
   margin: 0 auto;
 }
 
+.title-1 {
+  font-size: 34px;
+  font-weight: 600;
+}
+
 /* header */
 
 .header {
@@ -108,4 +113,37 @@ body {
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+/* portfolio */
+
+.portfolio {
+  padding: 90px 0;
+  background-color: #f1f1f1;
+}
+
+.portfolio-title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+}
+
+.project + .project {
+  margin-top: 90px;
+}
+
+.project-img {
+  margin-bottom: 40px;
+}
+
+.project-title {
+  font-size: 18px;
+}
+
+.project-title a {
+  color: #070707;
+  text-decoration: underline;
 }
