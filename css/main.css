@@ -18,6 +18,26 @@ body {
   font-weight: 600;
 }
 
+.btn {
+  display: inline-block;
+  padding: 7px 22px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #070707;
+  border-radius: 25px;
+  transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.btn:hover, .btn:focus {
+  background-color: #323232;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+  background-color: #000;
+}
+
 /* header */
 
 .header {
@@ -146,4 +166,39 @@ body {
 .project-title a {
   color: #070707;
   text-decoration: underline;
+}
+
+/* footer */
+
+.contacts {
+  padding: 90px 0;
+  text-align: center;
+}
+
+.contacts-title {
+  margin-bottom: 40px;
+  font-size: 34px;
+  font-weight: 600;
+  color: #070707;
+}
+
+.contacts-content {
+  margin-bottom: 40px;
+  font-size: 18px;
+  color: #070707;
+}
+.contacts-button {
+  margin-bottom: 80px;
+}
+
+.contacts-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 62px;
+  margin-bottom: 40px;
+}
+
+.contacts-footer {
+  color: #828282;
 }
